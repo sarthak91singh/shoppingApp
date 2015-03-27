@@ -1,0 +1,46 @@
+[
+
+	{
+		"name": "Sachin Tendulkar",
+		"position": "Batsman",
+		"team": "India",
+		"ranking": 1
+	},
+
+	{
+		"name": "Adam Gilchrist",
+		"position": "Batsman",
+		"team": "Australia",
+		"ranking": 2
+	},
+
+	{
+		"name": "Wasim Akram",
+		"position": "Bowler",
+		"team": "Pakistan",
+		"ranking": 3
+	},
+
+	{
+		"name": "Daniel Vettori",
+		"position": "Bowler",
+		"team": "New Zealand",
+		"ranking": 4
+	},
+
+	{
+		"name": "Virat Kohli",
+		"position": "Batsman",
+		"team": "India",
+		"ranking": 5
+	},
+
+	{
+		"name": "A.B. deVilliers",
+		"position": "Batsman",
+		"team": "South Africa",
+		"ranking": 6
+	}
+
+
+]

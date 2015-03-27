@@ -1,0 +1,16 @@
+<h2>Checkout</h2>
+<p ng-show="basket.count() ==0">No items to show !!!!!!!!!!!!!</p>
+<div ng-show="basket.count() > 0">
+	<table>
+		<tr>
+			<th>Item Name </th>
+			<th>Item Price </th>
+			<th>Item Quantity</th>
+		</tr>
+		<tr ng-repeat="item in basket.get()">
+			<td>{{item.type.name}}</td>
+			<td>{{item.type.price | currency}}</td>
+			<td>{{item.quantity}}</td>
+		</tr>
+	</table>
+</div>

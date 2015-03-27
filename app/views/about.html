@@ -1,0 +1,28 @@
+<p>This is the about view.</p>
+
+<div ng-app="shoppingApp">
+	<h1>Cricket</h1>
+	<div ng-controller="AboutCtrl">
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Position</th>
+				<th>Team</th>
+				<th>Ranking</th>
+			</tr>
+			<tr ng-repeat="item in team.data">
+				<td>{{item.name}}</td>
+				<td>{{item.position}}</td>
+				<td>{{item.ranking}}</td>
+				<td>{{item.team}}</td>
+			</tr>
+		</table>
+
+		<div class="primary">UI GRID</div>
+
+		<div ui-grid="{ data: team.data }" class="myGrid"></div>
+	</div>
+</div>
+
+
+
