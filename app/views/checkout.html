@@ -1,7 +1,12 @@
-<h2>Checkout</h2>
+<span>Navigation completion</span>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width:99%" > 99%</div>
+</div>
+
+<h2 class="page-header">Checkout</h2>
 <p ng-show="basket.count() ==0">No items to show !!!!!!!!!!!!!</p>
-<div ng-show="basket.count() > 0">
-	<table>
+<div ng-show="basket.count() > 0" class ="jumbotron">
+	<table class="table">
 		<tr>
 			<th>Item Name </th>
 			<th>Item Price </th>

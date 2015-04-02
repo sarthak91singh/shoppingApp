@@ -10,4 +10,5 @@
 angular.module('shoppingApp')
   .controller('CheckoutCtrl', function ($scope, basket) {
     $scope.basket = basket;
+    console.log(basket.count())
   });
