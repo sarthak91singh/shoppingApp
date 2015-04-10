@@ -1,0 +1,1 @@
+"use strict";angular.module("shoppingApp").controller("NavCtrl",function(t,l){t.basket=l});

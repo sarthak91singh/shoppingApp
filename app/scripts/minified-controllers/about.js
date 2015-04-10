@@ -1,0 +1,1 @@
+"use strict";angular.module("shoppingApp").controller("AboutCtrl",function(o,t){var a=t.getPlayers();a.then(function(t){o.team=t,console.log(o.team),console.log("HaHaHaHa")})});

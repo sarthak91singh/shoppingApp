@@ -1,0 +1,1 @@
+"use strict";angular.module("shoppingApp").controller("CheckoutCtrl",function(o,t){o.basket=t,console.log(t.count())});

@@ -1,0 +1,1 @@
+"use strict";angular.module("shoppingApp").controller("MainCtrl",function(o,t,e){o.catalog=t,o.basket=e,console.log("Basket Service contents: ",e)});

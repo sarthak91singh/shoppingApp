@@ -15,6 +15,8 @@ angular.module('shoppingApp')
   		promise.then(function(data){
   			$scope.team = data;
   			console.log($scope.team);
+
+
   		});
 
   });
